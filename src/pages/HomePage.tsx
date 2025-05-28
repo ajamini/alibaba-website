@@ -36,10 +36,10 @@ const HomePage: React.FC = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                to="/services"
+                to="/rates"
                 className="bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-md font-medium transition-colors"
               >
-                Our Services
+                Our Rates
               </Link>
               <Link
                 to="/contact"
@@ -87,15 +87,6 @@ const HomePage: React.FC = () => {
               description="Secure storage solutions with inventory management systems for efficient distribution."
               link="/services/warehousing"
             />
-          </div>
-
-          <div className="text-center mt-12">
-            <Link 
-              to="/services" 
-              className="inline-block border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white px-6 py-3 rounded-md font-medium transition-colors"
-            >
-              View All Services
-            </Link>
           </div>
         </div>
       </section>
@@ -255,10 +246,10 @@ const HomePage: React.FC = () => {
               Get a Free Quote
             </Link>
             <Link
-              to="/services"
+              to="/rates"
               className="bg-transparent hover:bg-secondary-600 text-white border-2 border-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
             >
-              Explore Our Services
+              See our Rates
             </Link>
           </div>
         </div>

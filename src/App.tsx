@@ -15,11 +15,8 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/rates" element={<NewsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/tracking" element={<TrackingPage />} />
-          <Route path="/news" element={<NewsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>

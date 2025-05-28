@@ -79,9 +79,9 @@ const ContactPage: React.FC = () => {
                     <div className="ml-4">
                       <h3 className="text-lg font-semibold text-gray-800 mb-1">Headquarters</h3>
                       <p className="text-gray-600">
-                        123 Shipping Lane<br />
-                        Harbor District<br />
-                        Port City, PC 12345<br />
+                        American Shipping and Logistics Inc<br />
+                        5030 Firestone Blvd<br />
+                        South Gate, CA 90280<br />
                         United States
                       </p>
                     </div>
@@ -93,8 +93,7 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-semibold text-gray-800 mb-1">Phone</h3>
-                      <p className="text-gray-600">Main: +1 (555) 123-4567</p>
-                      <p className="text-gray-600">Support: +1 (555) 987-6543</p>
+                      <p className="text-gray-600">Main: (925) 570-3835</p>
                     </div>
                   </div>
 
@@ -104,9 +103,8 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-semibold text-gray-800 mb-1">Email</h3>
-                      <p className="text-gray-600">General: info@oceanway.com</p>
-                      <p className="text-gray-600">Support: support@oceanway.com</p>
-                      <p className="text-gray-600">Sales: sales@oceanway.com</p>
+                      <p className="text-gray-600">General: info@americanshippingandlogistics.com</p>
+                      <p className="text-gray-600">Towing: towing@americanshippingandlogistics.com</p>
                     </div>
                   </div>
 
@@ -262,129 +260,6 @@ const ContactPage: React.FC = () => {
                     </div>
                   </form>
                 )}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Global Offices */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-primary-500 mb-4">Our Global Offices</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              With offices strategically located around the world, we provide local expertise with global reach.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">North America</h3>
-              <p className="text-gray-600 mb-4">
-                123 Shipping Lane<br />
-                Harbor District<br />
-                Port City, PC 12345<br />
-                United States
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +1 (555) 123-4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> na@oceanway.com
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Europe</h3>
-              <p className="text-gray-600 mb-4">
-                45 Harbor Street<br />
-                Maritime Quarter<br />
-                Rotterdam, 3001 AB<br />
-                Netherlands
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +31 10 123 4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> eu@oceanway.com
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Asia Pacific</h3>
-              <p className="text-gray-600 mb-4">
-                789 Ocean Tower<br />
-                Shipping District<br />
-                Singapore, 049535<br />
-                Singapore
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +65 6123 4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> apac@oceanway.com
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Middle East</h3>
-              <p className="text-gray-600 mb-4">
-                567 Trade Center<br />
-                Business Bay<br />
-                Dubai, 12345<br />
-                United Arab Emirates
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +971 4 123 4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> me@oceanway.com
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Latin America</h3>
-              <p className="text-gray-600 mb-4">
-                234 Puerto Avenue<br />
-                Marina District<br />
-                Panama City, 0816-03568<br />
-                Panama
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +507 123 4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> latam@oceanway.com
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6 hover:shadow-card transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Africa</h3>
-              <p className="text-gray-600 mb-4">
-                678 Harbor Road<br />
-                Port District<br />
-                Cape Town, 8001<br />
-                South Africa
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Phone:</span> +27 21 123 4567
-              </p>
-              <p className="text-gray-700">
-                <span className="font-medium">Email:</span> africa@oceanway.com
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section (Placeholder) */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="bg-white rounded-lg shadow-card p-4">
-            <div className="relative w-full h-96 bg-gray-200">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-gray-500">Interactive map would be displayed here</p>
               </div>
             </div>
           </div>
