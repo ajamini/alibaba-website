@@ -197,38 +197,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-500 mb-4">What Our Clients Say</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it. Hear what our clients have to say about their experience working with OceanWay.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <TestimonialCard
-              quote="OceanWay has consistently delivered our shipments on time and with great care. Their customer service is exceptional, and they always go the extra mile to ensure our satisfaction."
-              name="Sarah Johnson"
-              title="Operations Manager, GlobeExport Inc."
-              image="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
-            />
-            <TestimonialCard
-              quote="We've been working with OceanWay for over five years, and they've proven to be a reliable partner for all our international shipping needs. Their global network and expertise are invaluable to our business."
-              name="Michael Chen"
-              title="Logistics Director, TechGlobal Ltd."
-              image="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
-            />
-            <TestimonialCard
-              quote="The team at OceanWay understands our unique requirements and provides tailored solutions that have helped us optimize our supply chain. Their efficiency and reliability have made them a trusted partner."
-              name="Emma Rodriguez"
-              title="Supply Chain Manager, Eco Brands Co."
-              image="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
-            />
-          </div>
-        </div>
-      </section>
-
+     
       {/* CTA Section */}
       <section className="py-20 bg-secondary-500">
         <div className="container mx-auto px-4 lg:px-8 text-center">
